@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Новости Владивостока</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Drawer -->
+    <string name="drawer_main">Главная</string>
+    <string name="drawer_business">Деловые новости</string>
+    <string name="drawer_photo_reports">Фоторепортажи</string>
+    <string name="drawer_wanted">Розыск</string>
+    <string name="drawer_citizens">Глазами горожан</string>
+    <string name="drawer_society">Общество</string>
+	<string name="loading">Загрузка...</string>
+
+    <string name="read_comments" type="id"><u>%1$s комментариев на IntenseDebate</u></string>
+	<string name="share">Поделиться</string>
+    <string name="refresh">Обновить</string>
+    <string name="retry">Повтор</string>
+
+    <!-- Google Analytics -->
+    <string name="ga_screen_feed">Лента</string>
+    <string name="ga_screen_view">Новость</string>
+
+    <string name="ga_event_category_common">Общие</string>
+
+    <string name="ga_event_pager">Смена картинки</string>
+    <string name="ga_event_share">Шаринг</string>
+    <string name="ga_event_comments">Комментарии</string>
+
+	<string name="err_network_problems">Не удалось загрузить данные</string>
+    <string name="err_app_not_found">Приложение не найдено</string>
+
+	<string name="ga_event_start_in_orientation">Старт с поворотом %d</string>
+	<string name="ga_event_refresh_feed">Обновили феед</string>
+	<string name="ga_event_open_news">Открыли новость</string>
+	<string name="ga_event_close_news_by_back">Закрыли новость по кнопке \"Назад\"</string>
+	<string name="ga_event_close_news">Закрыли новость</string>
+	<string name="ga_event_image_scrolled">Скролим картинки в новости</string>
+	<string name="ga_event_image_scrolled_by_next">Скролим картинку кнопкой \"Следующая\"</string>
+</resources>

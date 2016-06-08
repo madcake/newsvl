@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="ru.vl.news">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<application
+		android:allowBackup="true"
+		android:logo="@drawable/ic_launcher_white"
+        android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme"
+		>
+		<activity
+			android:name=".ui.MainActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity
+			android:name=".ui.GalleryActivity"
+			android:label="@string/app_name"
+			/>
+
+		<provider
+			android:name=".provider.NewsProvider"
+			android:authorities="ru.vl.news"
+			android:exported="false"/>
+
+		<service
+			android:name=".service.NewsFeedService"
+			android:exported="false"/>
+		<service
+			android:name=".service.NewsViewService"
+			android:exported="false"/>
+
+		<meta-data
+			android:name="com.crashlytics.ApiKey"
+			android:value="91876a2013bfe646d7c482c08add93e6de2f3754"/>
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version"/>
+	</application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Store/Work/Apps/newsvl/news/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/classes-273dc7e193abfaa44581ad8367a89c5771e7f676.jar" />
+    </item>
+    <item
+        jar="/Store/Work/Apps/newsvl/news/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-ba8fcacc047c84b6d91cba9c992237525e51c11f.jar" />
+    </item>
+    <item
+        jar="/Store/Libs/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d878e67bd47d5f98fe20a9c016227383a492a338.jar" />
+    </item>
+    <item
+        jar="/Users/madcake/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1eb6690b0c629d7000c77a72df5e822fb974f521">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/jsoup-1.8.1-d64ac52f95b9b9414efd3415d0f19e48323650a5.jar" />
+    </item>
+    <item
+        jar="/Users/madcake/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/picasso-2.3.2-d79b27461917dd1fb77c32dc38c6df34459c203a.jar" />
+    </item>
+    <item
+        jar="/Users/madcake/.gradle/caches/modules-2/files-2.1/com.crashlytics.android/crashlytics/1.1.13/e821eafa1bf489a26bdb71f95078c26785b37a1/crashlytics-1.1.13.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0e821eafa1bf489a26bdb71f95078c26785b37a1">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/crashlytics-1.1.13-b15b0abefcc16710e93e23669ddeb76ecdc3b773.jar" />
+    </item>
+    <item
+        jar="/Store/Work/Apps/newsvl/news/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Store/Work/Apps/newsvl/news/build/intermediates/pre-dexed/debug/classes-dd519580b4a9315188d8e1ef2c12789d88803811.jar" />
+    </item>
+
+</items>

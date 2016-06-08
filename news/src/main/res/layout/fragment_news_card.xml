@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@android:color/white"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+    <ru.vl.news.view.ScrollContainer
+		android:id="@+id/scroll_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+			android:paddingTop="?android:attr/actionBarSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <FrameLayout
+                android:id="@+id/page_container"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/next"
+                    android:background="#77ffffff"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/ic_action_next_item"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+                </FrameLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/comments"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_dark"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_comments"
+                android:drawablePadding="3dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/text"
+                android:text=""
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <include layout="@layout/item_news_card_video"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:textStyle="bold"
+                android:textColor="@android:color/secondary_text_light_nodisable"
+                android:padding="10dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+	</ru.vl.news.view.ScrollContainer>
+    <ru.vl.news.view.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		/>
+</FrameLayout>
